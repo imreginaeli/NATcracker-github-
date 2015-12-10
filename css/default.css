@@ -1,0 +1,241 @@
+body{
+				background-color: #18bc9c;
+				background-size: cover;
+				height: 100%;
+				width: 100%;
+			}
+			
+			.wrapdiv{
+				width: 99%;
+				margin-top: 10px;
+				margin-bottom: 15px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				padding: 10px;
+				border: 1px solid #dbe1e8;
+				font-family: 'Open Sans', sans-serif;
+				text-align: center;
+				background-color: #18bc9c;
+				color: white;
+			}
+			
+			.navbar-inverse{
+				background-color: #2c3e50;
+				
+			}
+			
+			#btnHome{
+				color: white;
+				margin-top: 10px;
+				margin-right: 20px;
+				/* width: 3em; */
+				font-size: 2em;
+			}
+			
+			.btn-primary{
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			html, body{
+				width: 100%;
+				height: 100%;
+				font-family: 'Open Sans', sans-serif;
+			}
+			h1{
+				font-size: 24px;
+			}
+			
+			.trivia {
+			font-size: 12px; text-transform: none; font-weight:normal;
+			}
+			
+			h2{
+				font-size: 20px;
+			}
+			
+			h3{
+				font-size: 18px;
+			}
+			
+			h4{
+				font-size: 16px;
+			}
+			
+			h5{
+				font-size: 14px;
+			}
+			
+			h6{
+				font-size: 12;
+			}
+			
+			.btn-primary, .btn-danger, .btn-success, .btn-info, .btn-warning {
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				margin-top: 15px;
+				font-size: 12px;
+			}
+			
+			.btn-info{
+				border: 2px solid white;
+				width: 90%;
+				color: black;
+			}
+			
+			p {
+				text-indent: 50px;
+				text-align: center;
+				font-size: 12px;
+			}
+			
+			li{
+				font-size: 12px;
+			}
+			
+			.content{
+				margin-left: auto;
+				margin-right: auto:
+				display: auto;
+			}
+			
+			.alammoba{
+				border: 2px solid black;
+				padding: 5px;
+				text-indent: 0px;
+			}
+			
+			#footer{
+				background: #2c3e50;
+				height: auto;
+				color: white;
+				width: 100%;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				}
+
+			#footerglyph{
+				font-size: 1.5em;
+				text-align:center;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				margin-top: 15px;
+				margin-bottom: 15px;
+				text-indent: 0px;
+			}
+			
+			.btnCircle{
+				text-align: center;
+				border: 1px solid white;
+				width: 125px;
+				height: 125px;
+				border-radius: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				font-weight: bold;
+				color: white;
+				padding: 10px;
+			}
+			
+			.glyph{
+				font-size: 3em;
+				margin-top: 15px;
+			}
+			
+			.divbg{
+				background: rgba(0, 0, 0, 0.5);
+				border: none;
+				margin-left: margin;
+				width: 100%;
+				border-radius: 5px;
+			}
+			
+			.btnCircle:hover{
+				background-color: rgb(87, 187, 137);
+				opacity: 0.5;
+			}
+			
+			
+			.pages{
+					font-family: serif;
+                    font-size: 130%;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+				}
+			
+                #menu{
+                    font-family: serif;
+                    font-size: 130%;   
+                }
+                
+				.buttons{
+					background-color: orange;
+					width: 70%;
+					height: 5%;
+					text-align: center;
+					padding: 10px;
+					color: white;
+					box-shadow: 5px 5px 5px #888888;
+					border: 2px solid;
+				}
+				
+				.btnAlign{
+					vertical-align: middle;
+				}
+				
+				.rightAns{
+					-webkit-animation: myAnimation 5s;
+				}
+				
+				.btn{
+					border-radius: 0px;
+					font-size: 14px;
+					font-weight: bold;
+				}
+
+				.headerres{
+					border:1px solid; 
+					display:inline-block;
+					background-color: orange;
+					padding: 5px;
+					color: white;
+					box-shadow: 5px 5px 5px #888888;	
+					text-align: left;
+					width: 50%;
+					height: 5%;
+				}
+				
+				.item{
+					display:inline-block;
+					padding: 5px;
+					box-shadow: 5px 5px 5px #888888;	
+					text-align: right;
+					width: 20%;
+					height: 5%;
+				}
+				
+				.aboutcontent{
+					background-color: orange;
+					width: 90%;
+					height: 5%;
+					text-align: center;
+					padding: 10px;
+					color: white;
+					box-shadow: 5px 5px 5px #888888;
+					border: 2px solid;
+				}
+				
+				#banner{
+					height: 50px;
+					color: white;
+					background-color: #2c3e50;
+					text-align: center;
+					width: 110%;
+					margin-left: -15px;
+					z-index: 1000;
+					margin-top: 0px;
+				}
