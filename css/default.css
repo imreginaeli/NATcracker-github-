@@ -46,28 +46,28 @@ body{
 				font-size: 24px;
 			}
 			
-			.trivia {
-			font-size: 12px; text-transform: none; font-weight:normal;
-			}
-			
-			h2{
-				font-size: 20px;
-			}
-			
-			h3{
-				font-size: 18px;
-			}
-			
-			h4{
-				font-size: 16px;
-			}
-			
-			h5{
+			p{
 				font-size: 14px;
 			}
 			
+			h2{
+				font-size: 22px;
+			}
+			
+			h3{
+				font-size: 20px;
+			}
+			
+			h4{
+				font-size: 18px;
+			}
+			
+			h5{
+				font-size: 16px;
+			}
+			
 			h6{
-				font-size: 12;
+				font-size: 14;
 			}
 			
 			.btn-primary, .btn-danger, .btn-success, .btn-info, .btn-warning {
