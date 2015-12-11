@@ -232,7 +232,7 @@ var questions = [
 					nextArr = nextArr + 1;
                     
 					//displays result if it has reached 50 questions
-					if(pos > 19){
+					if(pos > 49){
 						$('#mainexam').fadeOut(500);
 						$('#result').fadeIn(500);
 						var verdict = "";
