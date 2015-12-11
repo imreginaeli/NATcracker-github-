@@ -21,47 +21,56 @@
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html"><img src="images/logo.png" style="width: 40px;margin-top: -10px;"></a><div class="pull-right"><a href="#"><span class="glyphicon glyphicon-home" id="btnHome"></span></a></div>
+					<div class="navbar-brand"><a href="#"><span class="glyphicon glyphicon-arrow-left" id="btnHome"></span></a></div>
 				</div>
 			<div>
 		  </div>
 		</nav>
 		
 		<div id="introexam">
-			<div class="container wrapdiv" style="padding: 0px;">
-				<h2 style="font-weight: bold; font-family: 'Quicksand', san-serif;" class="text-center">Directions</h2>
+			<div class="container noBorder" style="padding: 0px;">
+				<h2 style="font-weight: bold; font-family: 'Quicksand', san-serif; color: #2c3e50;" class="text-center;" >DIRECTIONS</h2>
+			</div>
+			<hr>
+			
+			<div class="noBorder">
+				<h3 class="instructHeader">SYNONYMS</h3>
+				<h5 class="instructContent">Choose the letter that is most nearly the same in meaning to the bold and italicized words in the sentence.</h5>
 			</div>
 			
-			<div class="container wrapdiv">
-				<h5><b><span class="text-center">SYNONYMS</span></b><br> <span class="text-justify">Choose the letter that is most nearly the same in meaning to the bold and italicized words in the sentence.</span></h5>
+			<div class="noBorder">
+				<h3 class="instructHeader">ANTONYMS</h3>
+				<h5 class="instructContent">Choose the letter that is most nearly opposite in meaning to the bold and italicized words in the sentence.</h5>
 			</div>
 			
-			<div class="wrapdiv">
-				<h5><b><span class="text-center">ANTONYMS</span></b><br> <span class="text-justify">Choose the letter that is most nearly opposite in meaning to the bold and italicized words in the sentence.</span></h5>
+			<div class="noBorder">
+				<h3 class="instructHeader">SINGLE WORD ANALOGY</h3>
+				<h5 class="instructContent">Choose the letter that best fit each analogy.</h5>
 			</div>
 			
-			<div class="wrapdiv">
-				<h5><b><span class="text-center">SINGLE WORD ANALOGY</span></b><br> <span class="text-justify">Choose the letter that best fit each analogy.</span></h5>
+			<div class="noBorder">
+				<h3 class="instructHeader">DOUBLE WORD ANALOGY</h3>
+				<h5 class="instructContent">Choose the pair of words that best expresses a relationship similar to that of the original pair. Then select the correct answer.</h5>
 			</div>
 			
-			<div class="wrapdiv">
-				<h5><b><span class="text-center">DOUBLE WORD ANALOGY</span></b><br> <span class="text-justify">Choose the pair of words that best expresses a relationship similar to that of the original pair. Then select the correct answer.</span></h5>
+			<div class="noBorder">
+				<h3 class="instructHeader">IDENTIFYING ERRORS</h3>
+				<h5 class="instructContent">Read each sentence carefully. If you find an error, select the letter of the underlined part that is incorrect. If there is no error, choose D.</h5>
 			</div>
 			
-			<div class="wrapdiv">
-				<h5><b><span class="text-center">IDENTIFYING ERRORS</span></b><br> <span class="text-justify">Read each sentence carefully. If you find an error, select the letter of the underlined part that is incorrect. If there is no error, choose D.</span></h5>
+			<div class="noBorder">
+				<h3 class="instructHeader">CORRECT USAGE</h3>
+				<h5 class="instructContent">A word or group of words has been omitted from the blank in each of the sentences below. <br>Choose the correct letter from the choices that best completes the thought of the sentence.</h5>
 			</div>
 			
-			<div class="wrapdiv">
-				<h5><b><span class="text-center">CORRECT USAGE</span></b><br> <span class="text-justify">A word or group of words has been omitted from the blank in each of the sentences below. <br>Choose the correct letter from the choices that best completes the thought of the sentence.</span></h5>
+			<div class="noBorder">
+				<h3 class="instructHeader"><b>LOGICAL ORGANIZATION OF IDEAS</h3>
+				<h5 class="instructContent">This section consists of paragraphs whose parts are presented in jumbled order.<br>Read each group of sentences and decide the best order in which to put the parts so that they form well-organized paragraphs. There are no extra sentences to be eliminated and each sentence is a part of the paragraph.</h5>
 			</div>
 			
-			<div class="wrapdiv">
-				<h5><b><span class="text-center">LOGICAL ORGANIZATION OF IDEAS</span></b><br> <span class="text-justify">This section consists of paragraphs whose parts are presented in jumbled order.<br>Read each group of sentences and decide the best order in which to put the parts so that they form well-organized paragraphs. There are no extra sentences to be eliminated and each sentence is a part of the paragraph.</span></h5>
-			</div>
-			
-			<div class="wrapdiv">
-				<h5><b><span class="text-center">READING COMPREHENSION</span></b><br> <span class="text-justify">Read the passage below and then choose the letter that best answers the questions on the basis of what is stated or implies in this passage.</span></h5>
+			<div class="noBorder">
+				<h3 class="instructHeader">READING COMPREHENSION</h3>
+				<h5 class="instructContent">Read the passage below and then choose the letter that best answers the questions on the basis of what is stated or implies in this passage.</h5>
 			</div>
 			<button class="btn btn-info" id="startExam">Start Exam</button>
 			<div style="height: 75px;">
@@ -81,7 +90,7 @@
 					<div data-role="content" class="text-center" style="margin-top: -10px;">
 						<div class="wrapdiv">
 							<h3 id="test_status" style="font-weight: bold;"></h3>
-							<h5 id="quest"></h5>
+							<h5 id="quest" class="quest"></h5>
 						</div>
 						<div class="btnAlign">
 								<div class="row" style="margin-top: -10px;">
@@ -100,13 +109,41 @@
 			<div class="chart-demo">
 				<h2 class="title" id="resultVerdict" style="text-align: center; color: white; font-weight: bold;"></h2>
 				<canvas id="doughnutChart" width="150px" height="150px;" style="margin-left: auto; margin-right: auto; display: block;"></canvas>
+				<h2 id="percentage" class="text-center" style="margin-top: -85px; color: white; display: none;"></h2>
 			</div>
-			<div class="container wrapdiv text-justify" style="padding: 0px;font-weight: bold; font-family: 'Quicksand', san-serif; color: white;">
+			
+			<div class="container wrapdiv text-justify" style="padding: 0px;font-weight: bold; font-family: 'Quicksand', san-serif; color: white; margin-top: 85px; ">
+				<div style="width: 80%; margin-left: auto; margin-right: auto; display: block;">
+					<h4 class="text-center">Synonyms</h4>
+					<div id="divSyn" style="height: 20px; background-color: #5856d6;"></div>
+					
+					<h4 class="text-center">Antonyms</h4>
+					<div id="divAnt" style="height: 20px; background-color: #007aff;"></div>
+					
+					<h4 class="text-center">Single Word Analogy</h4>
+					<div id="divSwa" style="height: 20px; background-color: #5ac8fa;"></div>
+					
+					<h4 class="text-center">Double Word Analogy</h4>
+					<div id="divDwa" style="height: 20px; background-color: #4cd964;"></div>
+					
+					<h4 class="text-center">Identifying Errors</h4>
+					<div id="divIde" style="height: 20px; background-color: #ff2d55;"></div>
+					
+					<h4 class="text-center">Correct Usage</h4>
+					<div id="divCus" style="height: 20px; background-color: #ff3b30;"></div>
+					
+					<h4 class="text-center">Logical Organization of Ideas</h4>
+					<div id="divLoi" style="height: 20px; background-color: #ff9500;"></div>
+					
+					<h4 class="text-center">Reading Comprehension</h4>
+					<div id="divRec" style="height: 20px; background-color: #8e8e93;"></div>
+				</div>
+
 				<h2>Full Score: 50</h2>
 				<h2>Passing Score: 30</h2>
 				<h2>Your Score: <span id="totalScore"></span></h2>
 			</div>
-			<button id="retake" class="btn btn-primary">Retake Exam</button>
+			<button id="retake" class="btn btn-primary" style="margin-bottom: 75px;">Retake Exam</button>
 		</div>
 			<div class="container" id="footer">
 				<p><span class="glyphicon glyphicon-info-sign" id="footerglyph"></span></p>
