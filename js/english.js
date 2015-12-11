@@ -232,7 +232,7 @@ var questions = [
 					nextArr = nextArr + 1;
                     
 					//displays result if it has reached 50 questions
-					if(pos > 49){
+					if(pos > 19){
 						$('#mainexam').fadeOut(500);
 						$('#result').fadeIn(500);
 						var verdict = "";
@@ -313,48 +313,144 @@ var questions = [
 						var forSyn = totalSyn/Syn;
 						var forSyn2 = 100/forSyn;
 						var forSyn3 = Math.floor(forSyn2) + '%';
+						if(Math.floor(forSyn2) < 50)
+						{
+							$('#divSyn').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forSyn2) < 81)
+						{
+							$('#divSyn').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divSyn').css('background-color', '#5cb85c');
+						}
 						$('#divSyn').animate({'width': forSyn3}, 750);
 						$('#divSyn').text(forSyn3);
 						
 						var forAnt = totalAnt/Ant;
 						var forAnt2 = 100/forAnt;
 						var forAnt3 = Math.floor(forAnt2) + '%';
+						if(Math.floor(forAnt2) < 50)
+						{
+							$('#divAnt').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forAnt2) < 81)
+						{
+							$('#divAnt').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divAnt').css('background-color', '#5cb85c');
+						}
 						$('#divAnt').animate({'width': forAnt3}, 750);
 						$('#divAnt').text(forAnt3);
 						
 						var forSwa = totalSwa/Swa;
 						var forSwa2 = 100/forSwa;
 						var forSwa3 = Math.floor(forSwa2) + '%';
+						if(Math.floor(forSwa2) < 50)
+						{
+							$('#divSwa').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forSwa2) < 81)
+						{
+							$('#divSwa').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divSwa').css('background-color', '#5cb85c');
+						}
 						$('#divSwa').animate({'width': forSwa3}, 750);
 						$('#divSwa').text(forSwa3);
 						
 						var forDwa = totalDwa/Dwa;
 						var forDwa2 = 100/forDwa;
 						var forDwa3 = Math.floor(forDwa2) + '%';
+						if(Math.floor(forDwa2) < 50)
+						{
+							$('#divDwa').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forDwa2) < 81)
+						{
+							$('#divDwa').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divDwa').css('background-color', '#5cb85c');
+						}
 						$('#divDwa').animate({'width': forDwa3}, 750);
 						$('#divDwa').text(forDwa3);
 						
 						var forIde = totalIde/Ide;
 						var forIde2 = 100/forIde;
 						var forIde3 = Math.floor(forIde2) + '%';
+						if(Math.floor(forIde2) < 50)
+						{
+							$('#divIde').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forIde2) < 81)
+						{
+							$('#divIde').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divIde').css('background-color', '#5cb85c');
+						}
 						$('#divIde').animate({'width': forIde3}, 750);
 						$('#divIde').text(forIde3);
 						
 						var forCus = totalCus/Cus;
 						var forCus2 = 100/forCus;
 						var forCus3 = Math.floor(forCus2) + '%';
+						if(Math.floor(forCus2) < 50)
+						{
+							$('#divCus').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forCus2) < 81)
+						{
+							$('#divCus').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divCus').css('background-color', '#5cb85c');
+						}
 						$('#divCus').animate({'width': forCus3}, 750);
 						$('#divCus').text(forCus3);
 						
 						var forLoi = totalLoi/Loi;
 						var forLoi2 = 100/forLoi;
 						var forLoi3 = Math.floor(forLoi2) + '%';
+						if(Math.floor(forLoi2) < 50)
+						{
+							$('#divLoi').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forLoi2) < 81)
+						{
+							$('#divLoi').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divLoi').css('background-color', '#5cb85c');
+						}
 						$('#divLoi').animate({'width': forLoi3}, 750);
 						$('#divLoi').text(forLoi3);
 						
 						var forRec = totalRec/Rec;
 						var forRec2 = 100/forRec;
 						var forRec3 = Math.floor(forRec2) + '%';
+						if(Math.floor(forRec2) < 50)
+						{
+							$('#divRec').css('background-color', '#d9534f');
+						}
+						else if(Math.floor(forRec2) < 81)
+						{
+							$('#divRec').css('background-color', '#f0ad4e');
+						}
+						else
+						{
+							$('#divRec').css('background-color', '#5cb85c');
+						}
 						$('#divRec').animate({'width': forRec3}, 750);
 						$('#divRec').text(forRec3);
 						
