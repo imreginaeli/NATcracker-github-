@@ -90,6 +90,33 @@ body{
 			
 			#btnHome{
 				color: white;
+				margin-left: 10px;
+				margin-top: -5px;
+			}
+			
+			#btnHelp{
+				color: white;
+				margin-right: 10px;
+				margin-top: -5px;
+			}
+			
+			#mainHeader{
+				padding: 10px;
+				background-color: white;
+				margin-top: -20px;
+				margin-bottom: 20px;
+			}
+			
+			#divScore{
+				width: 50px;
+				height: 50px;
+				background-color: #18bc9c;
+				padding: 10px;
+				border-radius: 100%;
+				border: 2px solid #2c3e50;
+				color: white;
+				margin-top: -50px;
+				margin-bottom: 20px;
 			}
 			
 			.btn-primary{
@@ -198,6 +225,10 @@ body{
 				font-weight: bold;
 				color: white;
 				padding: 10px;
+			}
+			
+			.btn-info:hover{
+				border-color: white;
 			}
 			
 			.glyph{

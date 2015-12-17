@@ -57,4 +57,10 @@ $(document).ready(function(){
 					newLocation = 'guide.html';
 					$('body').fadeOut(500, newpage);
 				});
+				
+				$('#gofil').click(function(){
+					event.preventDefault();
+					newLocation = 'filipino.html';
+					$('body').fadeOut(500, newpage);
+				});
 			});

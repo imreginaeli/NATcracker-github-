@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>NATcracker</title>
+		<link href="images/logo.png" rel="icon">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/default.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/synonyms.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/chart.js"></script>
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<h3 class="text-center" style="font-family: 'FaunaOne-Regular', serif; color: white;"><a href="#"><span class="glyphicon glyphicon-arrow-left pull-left" id="btnHome"></span></a>NATcracker<span class="glyphicon glyphicon glyphicon-question-sign pull-right" id="btnHelp"></span></h3>
+				</div>
+			<div>
+		  </div>
+		</nav>
+		
+		<div id="introexam">
+			<div class="container noBorder" style="padding: 0px;">
+				<h2 style="font-weight: bold; font-family: 'Quicksand', san-serif; color: #2c3e50;" class="text-center;" >DIRECTIONS</h2>
+			</div>
+			<hr>
+			
+			<div class="noBorder">
+				<h3 class="instructHeader">SYNONYMS</h3>
+				<h5 class="instructContent">Choose the letter that is most nearly the same in meaning to the bold and italicized words in the sentence.</h5>
+			</div>
+
+			<button class="btn btn-info" id="startExam">Start Exam</button>
+			<div style="height: 75px;">
+			
+			</div>
+		</div>
+		
+		<div id="mainexam">
+			<div class="container" id="mainHeader">
+				<h6 id="test_status" style="font-weight: bold; font-family: 'Open Sans', sans-serif;"></h6>
+			</div>
+			
+			<div class="container" id="divScore">
+				<h4 id="diScore" style="font-family: monospace; margin-top: 3px;" class="text-center"></h4>
+			</div>
+
+			<div class="container" id="questdiv" style="margin-top: -10px;">
+				<div id="exam" class="pages" style="margin-top: -50px;">
+					<br><br>
+					<div data-role="content" class="text-center" style="margin-top: -10px;">
+						<div class="wrapdiv">
+							<h3 id="test_status" style="font-weight: bold; font-family: 'Open Sans', sans-serif;"></h3>
+							<h5 id="quest" class="quest" style="font-family: 'Open Sans', sans-serif;"></h5>
+						</div>
+						<div class="btnAlign">
+								<div class="row" style="margin-top: -10px;">
+										<div id="choiceA" class="btn btn-info" name="choices" value="A"></div>
+										<div id="choiceB" class="btn btn-info" name="choices" value="B"></div>
+										<div id="choiceC" class="btn btn-info" name="choices" value="C"></div>
+										<div id="choiceD" class="btn btn-info" name="choices" value="D" style="margin-bottom: 75px;"></div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container" id="result">
+			<div class="chart-demo">
+				<h2 class="title" id="resultVerdict" style="text-align: center; color: white; font-weight: bold;"></h2>
+				<canvas id="doughnutChart" width="150px" height="150px;" style="margin-left: auto; margin-right: auto; display: block;"></canvas>
+				<h2 id="percentage" class="text-center" style="margin-top: -85px; color: white; display: none;"></h2>
+			</div>
+			<div class="container noBorder text-justify" style="padding: 0px;font-weight: bold; font-family: 'Quicksand', san-serif; color: white;">
+				<h2>Full Score: 10</h2>
+				<h2>Passing Score: 6</h2>
+				<h2>Your Score: <span id="totalScore"></span></h2>
+			<button id="retake" class="btn btn-primary" style="margin-bottom: 25px;"><span class="glyphicon glyphicon-home"></span></button>
+			</div>
+			
+			
+				
+		</div>
+			<div class="container" id="footer">
+				<p><span class="glyphicon glyphicon-info-sign" id="footerglyph"></span></p>
+				<h6 class="text-center" id="footerinfo"><span style="font-weight: bold">Authors</span><br> <br>Rosendo P. Agulto, Jr. <br> Mae C. Tacastacas <br> Crisol F. Cayetano </h6></h6>
+			</div>
+		</div>
+	</body>
+</html>
