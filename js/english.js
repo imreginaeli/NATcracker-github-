@@ -69,26 +69,26 @@ var questions = [
 ["opaque : light ::_________:_________", "spongy : fluid", "hermetic : air", "desert : sand", "tank : fuel", "B", "Double Word<br> Analogy"],
 ["mosaic: title ::_________:__________", "picture : tint", "manuscript: writer", "quilt : fabric", "fabric : tapestry", "C", "Double Word<br> Analogy"],
 ["training : skill ::_________:__________", "brain : neurological", "favourable : occasion", "language : class", "memory : mnemonic", "D", "Double Word<br> Analogy"],
-["Kaye is the only one of those students who have lived up to the potential described in the yearbook.", "is", "students", "have", "No error", "C", "Identifying Errors"],
-["The Math Club, as well as the Science and the English Club need to submit a new constitution to the principal’s office.", "as well as", "need", "submit", "No error", "B", "Identifying Errors"],
-["One of my best friends are an extra on <i>My Destiny</i> this week.", "One", "are", "this", "No error", "B", "Identifying Errors"],
-["Not only the players but also their coach have been called to the PBA office.", "players", "coach", "have", "No error", "C", "Identifying Errors"],
-["Most of the milk have gone bad. Six gallons of milk are still in the refrigerator.", "Most", "have", "gallons", "No error", "B", "Identifying Errors"],
-["Each and every student and instructor in this building hope for a new facility by next year.", "Each", "student", "hope", "No error", "D", "Identifying Errors"],
-["Three-quarters of the drivers is against the fare hike.", "Three-quarters", "drivers", "is", "No error", "C", "Identifying Errors"],
-["A high percentage of the population are voting for the new president.", "of", "are", "for", "No error", "B", "Identifying Errors"],
-["A large number of voters still vote along straight-party lines.", "voters", "vote", "lines", "No error", "D", "Identifying Errors"],
-["His politics is not aligned with any party platform.", "is", "aligned", "any", "No error", "A", "Identifying Errors"],
-["Five years are a long time to spend away from your friends and family.", "are", "spend", "friends", "No error", "A", "Identifying Errors"],
-["To an outsider, the economics of this country seems to be in disarray.", "outsider", "this", "seems", "No error", "C", "Identifying Errors"],
-["The achievements and also the failures of the Bangsamoro Basic Law has been important issues in the discussion regarding the continuation of creating a new autonomous region in Mindanao.", "has", "issues", "of", "No error", "A", "Identifying Errors"],
-["The dog or the cats is my favourite pets.", "dog", "cats", "is", "No error", "C", "Identifying Errors"],
-["Mathematics is John’s favorite subject, while Physics are Mark’s favorite subject.", "is", "subject", "are", "No error", "C", "Identifying Errors"],
-["Philippines is one of those countries that are working hard to reclaim the Sabah.", "is", "are", "reclaim", "No error", "B", "Identifying Errors"],
-["Leaving reason and fighting fear, the evacuees dashed toward the border of freedom.", "Leaving", "fighting", "evacuees", "No error", "D", "Identifying Errors"],
-["Either the cups or the glasses is in the dishwasher.", "Either", "or", "is", "No error", "C", "Identifying Errors"],
-["Outside of Nathaniel, there was no one interested in going skiing on Mall over the weekend.", "Outside", "there was", "interested", "No error", "A", "Identifying Errors"],
-["Most of the flowers were yellow.", "Most", "flower", "were", "No error", "D", "Identifying Errors"],
+["Kaye is the only one of those students who have lived up to the potential described in the yearbook.", "is", "students", "have", "No error", "C", "Identifying<br> Errors"],
+["The Math Club, as well as the Science and the English Club need to submit a new constitution to the principal’s office.", "as well as", "need", "submit", "No error", "B", "Identifying<br> Errors"],
+["One of my best friends are an extra on <i>My Destiny</i> this week.", "One", "are", "this", "No error", "B", "Identifying<br> Errors"],
+["Not only the players but also their coach have been called to the PBA office.", "players", "coach", "have", "No error", "C", "Identifying<br> Errors"],
+["Most of the milk have gone bad. Six gallons of milk are still in the refrigerator.", "Most", "have", "gallons", "No error", "B", "Identifying<br> Errors"],
+["Each and every student and instructor in this building hope for a new facility by next year.", "Each", "student", "hope", "No error", "D", "Identifying<br> Errors"],
+["Three-quarters of the drivers is against the fare hike.", "Three-quarters", "drivers", "is", "No error", "C", "Identifying<br> Errors"],
+["A high percentage of the population are voting for the new president.", "of", "are", "for", "No error", "B", "Identifying<br> Errors"],
+["A large number of voters still vote along straight-party lines.", "voters", "vote", "lines", "No error", "D", "Identifying<br> Errors"],
+["His politics is not aligned with any party platform.", "is", "aligned", "any", "No error", "A", "Identifying<br> Errors"],
+["Five years are a long time to spend away from your friends and family.", "are", "spend", "friends", "No error", "A", "Identifying<br> Errors"],
+["To an outsider, the economics of this country seems to be in disarray.", "outsider", "this", "seems", "No error", "C", "Identifying<br> Errors"],
+["The achievements and also the failures of the Bangsamoro Basic Law has been important issues in the discussion regarding the continuation of creating a new autonomous region in Mindanao.", "has", "issues", "of", "No error", "A", "Identifying<br> Errors"],
+["The dog or the cats is my favourite pets.", "dog", "cats", "is", "No error", "C", "Identifying<br> Errors"],
+["Mathematics is John’s favorite subject, while Physics are Mark’s favorite subject.", "is", "subject", "are", "No error", "C", "Identifying<br> Errors"],
+["Philippines is one of those countries that are working hard to reclaim the Sabah.", "is", "are", "reclaim", "No error", "B", "Identifying<br> Errors"],
+["Leaving reason and fighting fear, the evacuees dashed toward the border of freedom.", "Leaving", "fighting", "evacuees", "No error", "D", "Identifying<br> Errors"],
+["Either the cups or the glasses is in the dishwasher.", "Either", "or", "is", "No error", "C", "Identifying<br> Errors"],
+["Outside of Nathaniel, there was no one interested in going skiing on Mall over the weekend.", "Outside", "there was", "interested", "No error", "A", "Identifying<br> Errors"],
+["Most of the flowers were yellow.", "Most", "flower", "were", "No error", "D", "Identifying<br> Errors"],
 ["The retired general arrived on the arm of an 	_______ who steadied him as he walked into the national assembly.", "aid", "aide", "helper", "supporter", "B", "Correct Usage"],
 ["His _______ was useful for our project.", "advice", "advise", "advised", "adviced", "A", "Correct Usage"],
 ["I was _______ to purchase a more economical car.", "advice", "advise", "advised", "adviced", "C", "Correct Usage"],
@@ -235,7 +235,7 @@ var questions = [
 							{
 								Dwa++;
 							}
-							else if(category == "Identifying Errors")
+							else if(category == "Identifying<br> Errors")
 							{
 								Ide++;
 							}
@@ -298,7 +298,7 @@ var questions = [
 							{
 								Dwa++;
 							}
-							else if(category == "Identifying Errors")
+							else if(category == "Identifying<br> Errors")
 							{
 								Ide++;
 							}
@@ -362,7 +362,7 @@ var questions = [
 							{
 								Dwa++;
 							}
-							else if(category == "Identifying Errors")
+							else if(category == "Identifying<br> Errors")
 							{
 								Ide++;
 							}
@@ -425,7 +425,7 @@ var questions = [
 							{
 								Dwa++;
 							}
-							else if(category == "Identifying Errors")
+							else if(category == "Identifying<br> Errors")
 							{
 								Ide++;
 							}
@@ -806,10 +806,10 @@ var questions = [
 						totalDwa++;
 						category = "Double Word<br> Analogy";
 					}
-					else if(questions[val][6] == "Identifying Errors")
+					else if(questions[val][6] == "Identifying<br> Errors")
 					{
 						totalIde++;
-						category = "Identifying Errors";
+						category = "Identifying<br> Errors";
 					}
 					else if(questions[val][6] == "Correct Usage")
 					{
