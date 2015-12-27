@@ -12,8 +12,7 @@
 			<gap:platform name="blackberry" project="widgets"/>
 		</gap:platforms>
 
-		<gap:plugin name="org.apache.cordova.media" version="0.2.8" />
-		<plugin name="com.conzentrate.cordova.plugin.deviceaudioservice" spec="1.0" source="pgb" />
+		<gap:plugin name="org.apache.cordova.media"/>
 		<icon src="images/logo.png" gap:role="default"/>
 
 		<preference name="phonegap-version" value="3.6.3"/>

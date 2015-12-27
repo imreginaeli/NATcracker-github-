@@ -215,7 +215,6 @@ var questions = [
 						$('#choiceC').attr('disabled', true);
 						$('#choiceD').attr('disabled', true);
 						if(ans == questions[val][5]){
-							correctM.play();
 							correct++;
 
 							$('#choiceA').css('background-color', '#4cae4c');
@@ -255,7 +254,6 @@ var questions = [
 						}
 						else
 						{
-							wrong.play();
 							$('#choiceA').css('background-color', '#d43f3a');
 							$('#assessA').addClass('glyphicon glyphicon-remove');
 							if (questions[val][5]=='B')
@@ -512,12 +510,6 @@ var questions = [
 					$('body').fadeOut(500, newpage);
 				});
 			});
-				var wrong = new Audio();
-				wrong.src = "wrong.mp3";
-				
-				var correctM = new Audio();
-				correctM.src = "correct.mp3";
-			
 				var pos=0, test, test_status, question, choice, choices, chA, chB, chC, chD, correct = 0, ans, val, nextArr = 0;
 				var totalSyn = 0, totalAnt = 0, totalSwa = 0, totalDwa = 0, totalIde =0, totalCus = 0, totalLoi =0, totalRec = 0, category;
 				var Syn = 0, Ant = 0, Swa = 0, Dwa = 0, Ide =0, Cus = 0, Loi =0, Rec = 0;
