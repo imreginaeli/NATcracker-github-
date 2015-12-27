@@ -1,24 +1,24 @@
 var questions = [				
-["Masayang nakilahok sa paligsahan si Marga at Klara.", "Masayang", "nakilahok", "si", "Walang Mali", "C", "Pagkilala sa Mali"],
-["Kami ay nagpunta sa Makati bukas.", "Kami", "nagpunta", "Makati", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Si nanay ay nakikipag-usap sa telepono habang nagluluto.", "Si", "nakikipag-usap", "habang", "Walang Mali", "D", "Pagkilala sa Mali"],
-["Napansin ng guro ang mabuting asal na ipinamalas ng mga mag-aaral.", "Napansin", "mabuting", "mga", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Si Cha-Cha, Vince, at Joshua ay naghanda ng masarap na meryenda para sa mga panauhin.", "Si", "naghanda", "para", "Walang Mali", "A", "Pagkilala sa Mali"],
-["Sina Ginoong Gaspar ang nahalal bilang pangulo ng samahan.", "Sina", "nahalal", "ng", "Walang Mali", "A", "Pagkilala sa Mali"],
-["Ang sinaunang Pilipino ay lumilipat sa ibang lugar kapag wala silang makuhang pagkain.", "Ang", "lumilipat", "silang", "Walang Mali", "A", "Pagkilala sa Mali"],
-["Uminom nang gamot ang matandang pasyente.", "Uminom", "nang", "ang", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Kami ay pumunta sa opisina mamayang hapon.", "Kami", "pumunta", "mamayang", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Sumisimba ang mga mag-anak tuwing linggo.", "Sumisimba", "tuwing", "linggo", "Walang Mali", "A", "Pagkilala sa Mali"],
-["Nagbigay ng malaking donasyon para sa bahay ampunan ang samahan ni Ginoong Martinez.", "Nagbigay", "para", "ni", "Walang Mali", "D", "Pagkilala sa Mali"],
-["Dapat nating iwasan ang labis na pagkain ng mga maaalat at matatamis na pagkain.", "iwasan", "mga", "maaalat", "Walang Mali", "A", "Pagkilala sa Mali"],
-["Siya ay nagluluto ng dumating ang kanyang mga panauhin.", "Siya", "ng", "mga", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Ang mag-asawa ay malimit magtalo kong paano nila dapat disiplinahin ang kanilang mga anak.", "Ang mag-asawa", "kong", "kanilang", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Iniinom ni Grace ang kanilang gamot sa ubo kaya’t mabilis siyang gumaling.", "Iniinom", "kanilang", "sa", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Maraming nahuling isda si tatay sa dagat.", "Maraming", "nahuling", "si", "Walang Mali", "D", "Pagkilala sa Mali"],
-["Ang mga estudyante ay nagsasaliksik tungkol sa buhay ni Jose Rizal.", "Ang mga", "ay", "sa", "Walang Mali", "D", "Pagkilala sa Mali"],
-["Ang buong klase ni Bb. Nava ay magkakaroon ng lakbay-aral.", "Ang", "magkakaroon", "lakbay-aral", "Walang Mali", "D", "Pagkilala sa Mali"],
-["Makinig kayo nang mabuti sa payo ng inyong mga magulang.", "kayo", "nang", "inyong", "Walang Mali", "B", "Pagkilala sa Mali"],
-["Marami ring tao ang nanonood nang laro ng Gilas Pilipinas.", "ang", "nang", "ng", "Walang Mali", "B", "Pagkilala sa Mali"],
+["Masayang nakilahok sa paligsahan si Marga at Klara.", "Masayang", "nakilahok", "si", "Walang Mali", "C", "Pagkilala sa<br> Mali"],
+["Kami ay nagpunta sa Makati bukas.", "Kami", "nagpunta", "Makati", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Si nanay ay nakikipag-usap sa telepono habang nagluluto.", "Si", "nakikipag-usap", "habang", "Walang Mali", "D", "Pagkilala sa<br> Mali"],
+["Napansin ng guro ang mabuting asal na ipinamalas ng mga mag-aaral.", "Napansin", "mabuting", "mga", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Si Cha-Cha, Vince, at Joshua ay naghanda ng masarap na meryenda para sa mga panauhin.", "Si", "naghanda", "para", "Walang Mali", "A", "Pagkilala sa<br> Mali"],
+["Sina Ginoong Gaspar ang nahalal bilang pangulo ng samahan.", "Sina", "nahalal", "ng", "Walang Mali", "A", "Pagkilala sa<br> Mali"],
+["Ang sinaunang Pilipino ay lumilipat sa ibang lugar kapag wala silang makuhang pagkain.", "Ang", "lumilipat", "silang", "Walang Mali", "A", "Pagkilala sa<br> Mali"],
+["Uminom nang gamot ang matandang pasyente.", "Uminom", "nang", "ang", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Kami ay pumunta sa opisina mamayang hapon.", "Kami", "pumunta", "mamayang", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Sumisimba ang mga mag-anak tuwing linggo.", "Sumisimba", "tuwing", "linggo", "Walang Mali", "A", "Pagkilala sa<br> Mali"],
+["Nagbigay ng malaking donasyon para sa bahay ampunan ang samahan ni Ginoong Martinez.", "Nagbigay", "para", "ni", "Walang Mali", "D", "Pagkilala sa<br> Mali"],
+["Dapat nating iwasan ang labis na pagkain ng mga maaalat at matatamis na pagkain.", "iwasan", "mga", "maaalat", "Walang Mali", "A", "Pagkilala sa<br> Mali"],
+["Siya ay nagluluto ng dumating ang kanyang mga panauhin.", "Siya", "ng", "mga", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Ang mag-asawa ay malimit magtalo kong paano nila dapat disiplinahin ang kanilang mga anak.", "Ang mag-asawa", "kong", "kanilang", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Iniinom ni Grace ang kanilang gamot sa ubo kaya’t mabilis siyang gumaling.", "Iniinom", "kanilang", "sa", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Maraming nahuling isda si tatay sa dagat.", "Maraming", "nahuling", "si", "Walang Mali", "D", "Pagkilala sa<br> Mali"],
+["Ang mga estudyante ay nagsasaliksik tungkol sa buhay ni Jose Rizal.", "Ang mga", "ay", "sa", "Walang Mali", "D", "Pagkilala sa<br> Mali"],
+["Ang buong klase ni Bb. Nava ay magkakaroon ng lakbay-aral.", "Ang", "magkakaroon", "lakbay-aral", "Walang Mali", "D", "Pagkilala sa<br> Mali"],
+["Makinig kayo nang mabuti sa payo ng inyong mga magulang.", "kayo", "nang", "inyong", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
+["Marami ring tao ang nanonood nang laro ng Gilas Pilipinas.", "ang", "nang", "ng", "Walang Mali", "B", "Pagkilala sa<br> Mali"],
 ["____________ ng bagong libro sa Filipino na available sa bookstore.", "May", "Mayroon", "Meyron", "Mey", "B", "Wastong Gamit"],
 ["Ipinagmamalaki ____________ lubos na ako ay isang Atheneon.", "kung", "kong", "mong", "mung", "B", "Wastong Gamit"],
 ["Pumunta ka ____________ para makuha mo ang pasalubong ni Tita Lina.", "dito", "rito", "doon", "diyan", "B", "Wastong Gamit"],
@@ -219,7 +219,7 @@ var questions = [
 
 							$('#choiceA').css('background-color', '#4cae4c');
 							$('#assessA').addClass('glyphicon glyphicon-ok');
-							if(category == "Pagkilala sa Mali")
+							if(category == "Pagkilala sa<br> Mali")
 							{
 								Syn++;
 							}
@@ -274,7 +274,7 @@ var questions = [
 							correct++;
 							$('#choiceB').css('background-color', '#4cae4c');
 							$('#assessB').addClass('glyphicon glyphicon-ok');
-							if(category == "Pagkilala sa Mali")
+							if(category == "Pagkilala sa<br> Mali")
 							{
 								Syn++;
 							}
@@ -330,7 +330,7 @@ var questions = [
 							correct++;
 							$('#choiceC').css('background-color', '#4cae4c');
 							$('#assessC').addClass('glyphicon glyphicon-ok');
-							if(category == "Pagkilala sa Mali")
+							if(category == "Pagkilala sa<br> Mali")
 							{
 								Syn++;
 							}
@@ -385,7 +385,7 @@ var questions = [
 							correct++;
 							$('#choiceD').css('background-color', '#4cae4c');
 							$('#assessD').addClass('glyphicon glyphicon-ok');
-							if(category == "Pagkilala sa Mali")
+							if(category == "Pagkilala sa<br> Mali")
 							{
 								Syn++;
 							}
@@ -704,10 +704,10 @@ var questions = [
 					_("choiceC").innerHTML = chC + " <span id=\"assessC\" class=\"pull-right\"></span>";
 					_("choiceD").innerHTML = chD + " <span id=\"assessD\" class=\"pull-right\"></span>";
 					
-					if(questions[val][6] == "Pagkilala sa Mali")
+					if(questions[val][6] == "Pagkilala sa<br> Mali")
 					{
 						totalSyn++;
-						category = "Pagkilala sa Mali";
+						category = "Pagkilala sa<br> Mali";
 					}
 					else if(questions[val][6] == "Wastong Gamit")
 					{

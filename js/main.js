@@ -63,4 +63,10 @@ $(document).ready(function(){
 					newLocation = 'filipino.html';
 					$('body').fadeOut(500, newpage);
 				});
+				
+				$('#goap').click(function(){
+					event.preventDefault();
+					newLocation = 'ap.html';
+					$('body').fadeOut(500, newpage);
+				});
 			});

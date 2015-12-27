@@ -302,7 +302,7 @@ var questions = [
 					}
 					
 					
-					_("test_status").innerHTML = "<span class=\"pull-left\">" + questions[val][6]+ "</span><span class=\"pull-right\">" + (pos+1) + "/50</span>" ;
+					_("test_status").innerHTML = "<span class=\"pull-left\">" + questions[val][6]+ "</span><span class=\"pull-right\">" + (pos+1) + "/10</span>" ;
 					//retrieves elements in multi-dimensional array and displays it on element
 					question = questions[val][0];
 					chA = questions[val][1];
