@@ -96,7 +96,7 @@ var questions = [
 ["If a > 2. Which of the following is the smallest?", "a/2", "(a+1)/2", "2/(a+1)", "2/(a-1)", "C", "Mathematics"],
 ["<img src=\"images/math95.PNG\" style=\"width: 100%;\">", "30", "40", "54", "60", "A", "Mathematics"],
 ["The diameter of a circle is increased by 50%. The area increased by:", "50%", "100%", "125%", "200%", "C", "Mathematics"],
-["The figure below is composed of 5 equals squares. If the area of the figure is 125. Find its perimeter: <img src=\"images/math92.png\" class=\"imgtest\">", "60", "100", "80", "75", "A", "Mathematics"],
+["The figure below is composed of 5 equals squares. If the area of the figure is 125. Find its perimeter: <img src=\"images/math92.PNG\" class=\"imgtest\">", "60", "100", "80", "75", "A", "Mathematics"],
 ["Which is the largest numerical value?", "(2/2)(3/4)", "√.25", "(.9)<sup>2</sup>", "2/.3", "C", "Mathematics"],
 ["Rachell receives a basic weekly salary of P800 plus a 5% commission on her sales. In a week in which her sales amounted to  P8 000, the ratio of her basic salary to the commission was:", "2:1", "1:2", "2:3", "3:2", "A", "Mathematics"],
 ["The sum of Aya and Bea’s age is 40. The sum of Bea and Cez’s age is 34. The sum of Aya and Cez’s age is 42. How old is Bea?", "18", "24", "20", "16", "D", "Mathematics"],
