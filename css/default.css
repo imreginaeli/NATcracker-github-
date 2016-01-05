@@ -20,6 +20,14 @@ body{
 				color: white;
 			}
 			
+			.imgtest{
+				width: 60%;
+				margin-top: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+			
 			hr{
 				margin: 15px auto 15px;
 				padding: 0;
@@ -180,7 +188,8 @@ body{
 			}
 			
 			.btn-info{
-				border: 2px solid white;
+				box-shadow: 0px 5px 5px gray;
+				border: 1px solid white;
 				width: 90%;
 				color: black;
 			}

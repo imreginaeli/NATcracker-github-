@@ -69,4 +69,16 @@ $(document).ready(function(){
 					newLocation = 'ap.html';
 					$('body').fadeOut(500, newpage);
 				});
+				
+				$('#gosci').click(function(){
+					event.preventDefault();
+					newLocation = 'sci.html';
+					$('body').fadeOut(500, newpage);
+				});
+				
+				$('#gomath').click(function(){
+					event.preventDefault();
+					newLocation = 'math.html';
+					$('body').fadeOut(500, newpage);
+				});
 			});

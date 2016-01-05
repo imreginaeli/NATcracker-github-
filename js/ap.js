@@ -110,7 +110,7 @@ var questions = [
 ["Isang sangay ng Ekonomiks na tumutukoy sa galaw ng maliit na bahagi o yunit ng kabuhayan:", "Maykroekonomiks", "Sociology", "Anthropology", "Makroekonomiks", "A", "Araling<br> Panlipunan"],
 ["Ito ang pinakamataas na presyo sa pamilihan na itinakda ng pamahalaan:", "Dependent variable", "Floor price", "Independent price", "Ceiling price", "D", "Araling<br> Panlipunan"],
 ["Ito ang pinakamababang presyo sa pamilihan na itinakda ng pamahalaan:", "Dependent variable", "Floor price", "Independent price", "Ceiling price", "B", "Araling<br> Panlipunan"],
-["Ito ay tumutukoy sa mga kagamitan sa paglikha ng produkto, mga gawaing pnagkomersiyo at pamuhunan:", "Yamang Mineral", "Yamang Pisikal", "Yamang Tubig", "Yamang Lupa", "B", "Araling<br> Panlipunan"],
+["Ito ay tumutukoy sa mga kagamitan sa paglikha ng produkto, mga gawaing pangkomersiyo at pamuhunan:", "Yamang Mineral", "Yamang Pisikal", "Yamang Tubig", "Yamang Lupa", "B", "Araling<br> Panlipunan"],
 ["Pinoy na nakaimbento ng Karaoke:", "Fe del Mundo", "Diosdado Banatao", "Eduardo San Juan", "Robert Del Rosario", "D", "Araling<br> Panlipunan"],
 ["Isang pinay na nakaimbento ng incubator:", "Diosdado Banatao", "Eduardo San Juan", "Fe del Mundo", "Robert Del Rosario", "C", "Araling<br> Panlipunan"],
 ["Siya ang nakaimbento ng sasakyang pambuwan o Moon Buggy:", "Diosdado Banatao", "Robert Del Rosario", "Fe del Mundo", "Eduardo San Juan", "D", "Araling<br> Panlipunan"],
