@@ -140,7 +140,7 @@ var questions = [
 ["An element pulled a 466 N load to a distance of 8 m in 25 at a constant speed. What was the power of element in watts?", "7 864 N m/s", "9 764 N m/s ", "2 764 m/s", "1 764 N m/s", "D", "Science"],
 ["The force of attraction between a charge of 3.5 x 10^-5  and a charge -2.4 x 10^-5 n -7.5 x 10^3 N. What is the distance between the two charges:", "0.003 m", "0.0003 m", "0.03 m", "0.30 m", "C", "Science"],
 ["Find the magnitude of electric field 0.1250 m from a 4.00 μc charges:", "5.77 x 10^-5", "5.77 x 10^5", "5.76 x 20^-5", "5.76 x 10^5", "D", "Science"],
-["Identify what is word APO in the figure below: <img src=\"images/sci141.png\" style=\"width: 100%; margin-top: 10px;\">", "Wavelength", "period", "frequency", "length", "A", "Science"],
+["Identify what is word APO in the figure below: <img src=\"images/sci141.PNG\" style=\"width: 100%; margin-top: 10px;\">", "Wavelength", "period", "frequency", "length", "A", "Science"],
 ["What is the electric resistance of a copper wire 0.5 m long with a diameter of 1.5nm?", "4.86 x 10^-3 Ω", "5.86 x 10^-3 ", "3.86 x 10^-3 Ω", "2.86 x 10^-3 Ω", "A", "Science"],
 ["A 3.55 g bullet is fired into the 1.11kg block of a ballistic pendulum. The bullet remains embedded in the black. The combination of the block and he bullet swings to a height of 14.0 cm. What is the initial speed of the bullet?", "548 m/s", "528 m/s", "538 m/s", "668 m/s", "C", "Science"],
 ["Given the mass, calculate the weight of 2000kg jeepney:", "28 000 N", "18 600 N", "19 600 N", "20 600 N", "B", "Science"],
