@@ -5,6 +5,10 @@ body{
 				width: 100%;
 			}
 			
+			#btnHelp{
+			display: none;
+		}
+			
 			.wrapdiv{
 				width: 99%;
 				margin-top: 10px;

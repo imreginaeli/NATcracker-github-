@@ -18,6 +18,9 @@
 				height: 100%;
 				width: 100%;
 			}
+			#btnHelp{
+			display: none;
+		}
 			html, body{
 				width: 100%;
 				height: 100%;
@@ -181,43 +184,104 @@
 				font-size: 2em;
 			}
 			
+			.txtCate{
+				color: white;
+				font-weight: 600;
+				margin-left: -25px;
+				font-family: sans-serif;
+			}
+			
+			.wrapdiv{
+				    /* width: 99%; */
+					margin-top: 10px;
+					margin-bottom: 15px;
+					margin-left: auto;
+					margin-right: auto;
+					display: block;
+					padding: 0px;
+					border: 1px solid white;
+					font-family: 'Open Sans', sans-serif;
+					/* text-align: center; */
+					background-color: #18bc9c;
+					color: white;
+					    border-radius: 30px 0px;
+					box-shadow: 5px 5px 5px #888888;
+			}
+			#btnHome{
+				color: white;
+				margin-left: 10px;
+				margin-top: -5px;
+				font-size: 20px;
+			}
+			
 			#btnHelp{
-				display: none;
+				color: white;
+				margin-right: 10px;
+				margin-top: -5px;
+			}
+			
+			#mainHeader{
+				padding: 10px;
+				background-color: #256b6b;
+				margin-top: -20px;
+				margin-bottom: 20px;
+				color: white;
 			}
 		</style>
+		<script>
+			$(document).ready(function(){
+				function newpage() {
+					window.location = newLocation;
+				}
+			
+				$('#gorelax').click(function(){
+					event.preventDefault();
+					newLocation = 'math.html';
+					$('body').fadeOut(500, newpage);
+				});
+				$('#gochal').click(function(){
+					event.preventDefault();
+					newLocation = 'mathchal.html';
+					$('body').fadeOut(500, newpage);
+				});
+				
+				$('#btnHome').click(function(){
+					event.preventDefault();
+					newLocation = 'main.html';
+					$('body').fadeOut(500, newpage);
+				});
+			});
+		</script>
 	</head>
 	
 	<body>
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<img src="images/logo.png" style="width: 40px;margin-top: 5px; margin-left: auto; margin-right: auto; display: block;">
+					<h3 class="text-center" style="font-family: 'FaunaOne-Regular', serif; color: white;"><a href="#"><span class="glyphicon glyphicon-arrow-left pull-left" id="btnHome"></span></a>NATcracker<span class="glyphicon glyphicon glyphicon-question-sign pull-right" id="btnHelp"></span></h3>
 				</div>
-			</div>
+			<div>
+		  </div>
 		</nav>
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-6 col-md-6" style="padding: 20px;">
-					<div class="btnCircle" id="goguide"><span class="glyphicon glyphicon-list-alt glyph"></span><br>Guide in Taking Exams</div>
-				</div>
-				<div class="col-xs-6 col-md-6" style="padding: 20px;">
-					<div class="btnCircle" id="goeng"><img src="images/english.png" style="width: 80px;"><br>English</div>
-				</div>
+			<div class="row wrapdiv" id="gorelax">
+					<div class="col-xs-6 col-md-6" style="padding: 20px;">
+						<img src="images/easy.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block; margin-top: 15%;">
+					</div>
+					<div class="col-xs-6 col-md-6" style="padding: 20px;">
+						<div>
+							<h3 class="txtCate">RELAX MODE</h3>
+							<h4 style="margin-left: -25px;">Relax and take the exam with no pressure.</h4>
+						</div>
+					</div>
 			</div>
-			<div class="row">
+			<div class="row wrapdiv" id="gochal">
 				<div class="col-xs-6 col-md-6" style="padding: 20px;">
-					<div class="btnCircle" id="gofil"><img src="images/filipino.png" style="width: 80px;"><br>Filipino</div>
+					<img src="images/challenge2.png" style="width: 70px; margin-left: auto; margin-right: auto; display: block; margin-top: 15%;">
 				</div>
 				<div class="col-xs-6 col-md-6" style="padding: 20px;">
-					<div class="btnCircle" id="goap"><img src="images/ap.png" style="width: 80px; margin-top: 10px;"><br>Aralin Panlipunan</div>
-				</div>
-			</div>
-			<div class="row" style="margin-bottom: 50px;">
-				<div class="col-xs-6 col-md-6" style="padding: 20px;">
-					<div class="btnCircle" id="gosci"><img src="images/science.png" style="width: 80px;"><br>Science</div>
-				</div>
-				<div class="col-xs-6 col-md-6" style="padding: 20px;">
-					<div class="btnCircle" id="gomath"><img src="images/math.png" style="width: 80px;"><br>Mathematics</div>
+					<div><h3 class="txtCate">CHALLENGE MODE</h3>
+					<h4 style="margin-left: -25px;">Take the exam with 90-minute time limit.</h4></div>
 				</div>
 			</div>
 		</div>
@@ -225,5 +289,6 @@
 				<p><span class="glyphicon glyphicon-info-sign" id="footerglyph"></span></p>
 				<h6 class="text-center" id="footerinfo"><span style="font-weight: bold">Authors</span><br> <br>Rosendo P. Agulto, Jr. <br> Mae C. Tacastacas <br> Crisol F. Cayetano </h6></h6>
 			</div>
+		</div>
 	</body>
 </html>

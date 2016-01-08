@@ -40,15 +40,9 @@ $(document).ready(function(){
 					window.location = newLocation;
 				}
 				
-				$('#btnHome').click(function(){
-					event.preventDefault();
-					newLocation = 'main.html';
-					$('body').fadeOut(500, newpage);
-				});
-				
 				$('#goeng').click(function(){
 					event.preventDefault();
-					newLocation = 'english.html';
+					newLocation = 'engcate.html';
 					$('body').fadeOut(500, newpage);
 				});
 				
@@ -60,25 +54,25 @@ $(document).ready(function(){
 				
 				$('#gofil').click(function(){
 					event.preventDefault();
-					newLocation = 'filipino.html';
+					newLocation = 'filcate.html';
 					$('body').fadeOut(500, newpage);
 				});
 				
 				$('#goap').click(function(){
 					event.preventDefault();
-					newLocation = 'ap.html';
+					newLocation = 'apcate.html';
 					$('body').fadeOut(500, newpage);
 				});
 				
 				$('#gosci').click(function(){
 					event.preventDefault();
-					newLocation = 'sci.html';
+					newLocation = 'scicate.html';
 					$('body').fadeOut(500, newpage);
 				});
 				
 				$('#gomath').click(function(){
 					event.preventDefault();
-					newLocation = 'math.html';
+					newLocation = 'mathcate.html';
 					$('body').fadeOut(500, newpage);
 				});
 			});

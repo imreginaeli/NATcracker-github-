@@ -11,7 +11,7 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/antonyms.js"></script>
+		<script src="js/mathchal.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/chart.js"></script>
@@ -22,7 +22,7 @@
 			$(document).ready(function(){
 				$('#btnHome').click(function(){
 					event.preventDefault();
-					newLocation = 'scicate.html';
+					newLocation = 'mathcate.html';
 					$('body').fadeOut(500, newpage);
 				});
 			});
@@ -46,8 +46,16 @@
 			<hr>
 			
 			<div class="noBorder">
-				<h3 class="instructHeader">ANTONYMS</h3>
-				<h5 class="instructContent">Choose the letter that is most nearly opposite in meaning to the bold and italicized words in the sentence.</h5>
+				<h5 class="instructContent">This subject is a measure of ability to think out solutions to quantitative problems. Solve each problem carefully and the decide which is the most among the answer choices.</h5>
+			</div>
+			
+			<div class="container noBorder" style="padding: 0px;">
+				<h2 style="font-weight: bold; font-family: 'Quicksand', san-serif; color: #2c3e50;" class="text-center;" >NOTES</h2>
+			</div>
+			<hr>
+			
+			<div class="noBorder">
+				<h5 class="instructContent">Figures which accompany problems are intended to provide information useful in solving the problems. They are drawn as accurately as possible. All figures lie in a plane unless otherwise indicated.</h5>
 			</div>
 
 			<button class="btn btn-info" id="startExam">Start Exam</button>
@@ -93,9 +101,10 @@
 				<h2 id="percentage" class="text-center" style="margin-top: -85px; color: white; display: none;"></h2>
 			</div>
 			<div class="container noBorder text-justify" style="padding: 0px;font-weight: bold; font-family: 'Quicksand', san-serif; color: white;">
-				<h2>Full Score: 10</h2>
-				<h2>Passing Score: 6</h2>
+				<h2>Full Score: 50</h2>
+				<h2>Passing Score: 30</h2>
 				<h2>Your Score: <span id="totalScore"></span></h2>
+				<h2>Time Left: <span id="totalTime"></span></h2>
 			<button id="retake" class="btn btn-primary" style="margin-bottom: 25px;"><span class="glyphicon glyphicon-home"></span></button>
 			</div>
 			
@@ -103,8 +112,7 @@
 				
 		</div>
 			<div class="container" id="footer">
-				<p><span class="glyphicon glyphicon-info-sign" id="footerglyph"></span></p>
-				<h6 class="text-center" id="footerinfo"><span style="font-weight: bold">Authors</span><br> <br>Rosendo P. Agulto, Jr. <br> Mae C. Tacastacas <br> Crisol F. Cayetano </h6></h6>
+				<h3 class="text-center"><span id="txtMin"></h3>
 			</div>
 		</div>
 	</body>

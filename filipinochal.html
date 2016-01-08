@@ -11,7 +11,7 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/english.js"></script>
+		<script src="js/filipinochal.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/chart.js"></script>
@@ -22,7 +22,7 @@
 			$(document).ready(function(){
 				$('#btnHome').click(function(){
 					event.preventDefault();
-					newLocation = 'engcate.html';
+					newLocation = 'filcate.html';
 					$('body').fadeOut(500, newpage);
 				});
 			});
@@ -41,49 +41,40 @@
 		
 		<div id="introexam">
 			<div class="container noBorder" style="padding: 0px;">
-				<h2 style="font-weight: bold; font-family: 'Quicksand', san-serif; color: #2c3e50;" class="text-center;" >DIRECTIONS</h2>
+				<h2 style="font-weight: bold; font-family: 'Quicksand', san-serif; color: #2c3e50;" class="text-center;">MGA PANUTO</h2>
 			</div>
 			<hr>
 			
 			<div class="noBorder">
-				<h3 class="instructHeader">SYNONYMS</h3>
-				<h5 class="instructContent">Choose the letter that is most nearly the same in meaning to the bold and italicized words in the sentence.</h5>
+				<h3 class="instructHeader">PAGKILALA SA MALI</h3>
+				<h5 class="instructContent">Basahin at suriin ang mga sumusunod na pangungusap kung aling bahagi nito ang may mali. Piliin ang letra ng bahaging may mali. Kapag walang mali, piliin ang letrang D.</h5>
 			</div>
 			
 			<div class="noBorder">
-				<h3 class="instructHeader">ANTONYMS</h3>
-				<h5 class="instructContent">Choose the letter that is most nearly opposite in meaning to the bold and italicized words in the sentence.</h5>
+				<h3 class="instructHeader">WASTONG GAMIT</h3>
+				<h5 class="instructContent">Punan ng angkop na salita ang bawat patlang ayon sa hinihingi ng bawat pangungusap.</h5>
 			</div>
 			
 			<div class="noBorder">
-				<h3 class="instructHeader">SINGLE WORD ANALOGY</h3>
-				<h5 class="instructContent">Choose the letter that best fit each analogy.</h5>
+				<h3 class="instructHeader">TALASALITAAN</h3>
+				<h5 class="instructContent">Piliin ang letra ng pinakamalapit na kasingkahulugan ng mga salitang may salungguhit sa bawat parirala o pangungusap.</h5>
 			</div>
 			
 			<div class="noBorder">
-				<h3 class="instructHeader">DOUBLE WORD ANALOGY</h3>
-				<h5 class="instructContent">Choose the pair of words that best expresses a relationship similar to that of the original pair. Then select the correct answer.</h5>
+				<h3 class="instructHeader">PAGBUBUO NG KAISIPAN</h3>
+				<h5 class="instructContent">Pagsunod-sunurin ang mga detalye o pangyayari at sagutin ang mga tanong sa ibaba. Piliin ang titik ng wastong sagot.</h5>
 			</div>
 			
 			<div class="noBorder">
-				<h3 class="instructHeader">IDENTIFYING ERRORS</h3>
-				<h5 class="instructContent">Read each sentence carefully. If you find an error, select the letter of the underlined part that is incorrect. If there is no error, choose D.</h5>
+				<h3 class="instructHeader">PAG-UNAWA SA BINASA</h3>
+				<h5 class="instructContent">Basahin at unawaing mabuti ang mga sumusunod na teksto at sagutin ang mga tanong sa ibaba. Piliin ang titik ng wastong sagot.</h5>
 			</div>
 			
 			<div class="noBorder">
-				<h3 class="instructHeader">CORRECT USAGE</h3>
-				<h5 class="instructContent">A word or group of words has been omitted from the blank in each of the sentences below. <br>Choose the correct letter from the choices that best completes the thought of the sentence.</h5>
+				<h3 class="instructHeader">PANGKALAHATANG IMPORMASYON</h3>
+				<h5 class="instructContent">Basahin at unawaing mabuti ang bawat katanungan. Piliin ang titik ng tamang sagot na magpapatotoo sa bawat pangungusap.</h5>
 			</div>
 			
-			<div class="noBorder">
-				<h3 class="instructHeader"><b>LOGICAL ORGANIZATION OF IDEAS</h3>
-				<h5 class="instructContent">This section consists of paragraphs whose parts are presented in jumbled order.<br>Read each group of sentences and decide the best order in which to put the parts so that they form well-organized paragraphs. There are no extra sentences to be eliminated and each sentence is a part of the paragraph.</h5>
-			</div>
-			
-			<div class="noBorder">
-				<h3 class="instructHeader">READING COMPREHENSION</h3>
-				<h5 class="instructContent">Read the passage below and then choose the letter that best answers the questions on the basis of what is stated or implies in this passage.</h5>
-			</div>
 			<button class="btn btn-info" id="startExam">Start Exam</button>
 			<div style="height: 75px;">
 			
@@ -127,66 +118,54 @@
 				<h2 id="percentage" class="text-center" style="margin-top: -85px; color: white; display: none;"></h2>
 			</div>
 			
-			<div class="container text-justify" style="padding: 0px;font-weight: bold; font-family: 'Quicksand', san-serif; color: white; margin-top: 85px; ">
+			<div class="container noBorder text-justify" style="padding: 0px;font-weight: bold; font-family: 'Quicksand', san-serif; color: white; margin-top: 85px; ">
 				<div style="width: 80%; margin-left: auto; margin-right: auto; display: block;">
 					<div class="wrapdiv">
-						<h3 class="text-center">Synonyms</h3>
+						<h3 class="text-center">Pagkilala sa Mali</h3>
 						<div id="divSyn" style="height: 20px; "></div>
 						<button id="reSyn" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
 					</div>
-					
+						
 					<div class="wrapdiv">
-						<h3 class="text-center">Antonyms</h3>
+						<h3 class="text-center">Wastong Gamit</h3>
 						<div id="divAnt" style="height: 20px; "></div>
 						<button id="reAnt" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
 					</div>
-					
+						
 					<div class="wrapdiv">
-						<h3 class="text-center">Single Word Analogy</h3>
+						<h3 class="text-center">Talasalitaan</h3>
 						<div id="divSwa" style="height: 20px; "></div>
 						<button id="reSwa" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
 					</div>
-					
+						
 					<div class="wrapdiv">
-						<h3 class="text-center">Double Word Analogy</h3>
+						<h3 class="text-center">Pagbubuo ng Kaisipan</h3>
 						<div id="divDwa" style="height: 20px; "></div>
 						<button id="reDwa" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
 					</div>
-					
+						
 					<div class="wrapdiv">
-						<h3 class="text-center">Identifying Errors</h3>
+						<h3 class="text-center">Pag-unawa sa Binasa</h3>
 						<div id="divIde" style="height: 20px; "></div>
 						<button id="reIde" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
 					</div>
-					
+						
 					<div class="wrapdiv">
-						<h3 class="text-center">Correct Usage</h3>
+						<h3 class="text-center">Pangkalahatang Impormasyon</h3>
 						<div id="divCus" style="height: 20px; "></div>
 						<button id="reCus" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
 					</div>
-					
-					<div class="wrapdiv">
-						<h3 class="text-center">Logical Organization of Ideas</h3>
-						<div id="divLoi" style="height: 20px; "></div>
-						<button id="reLoi" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
-					</div>
-					
-					<div class="wrapdiv">
-						<h3 class="text-center">Reading Comprehension</h3>
-						<div id="divRec" style="height: 20px; "></div>
-						<button id="reRec" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-repeat"></span></button>
-					</div>
 				</div>
 
-				<h2 class="text-center">Full Score: 50</h2>
-				<h2 class="text-center">Passing Score: 30</h2>
-				<h2 class="text-center">Your Score: <span id="totalScore"></span></h2>
+				<h2>Full Score: 50</h2>
+				<h2>Passing Score: 30</h2>
+				<h2>Your Score: <span id="totalScore"></span></h2>
+				<h2>Time Left: <span id="totalTime"></span></h2>
 			</div>
 			<button id="retake" class="btn btn-primary" style="margin-bottom: 75px;"><span class="glyphicon glyphicon-home"></span></button>
 		</div>
 			<div class="container" id="footer">
-				<p><span class="glyphicon glyphicon-info-sign" id="footerglyph"></span></p>
-				<h6 class="text-center" id="footerinfo"><span style="font-weight: bold">Authors</span><br> <br>Rosendo P. Agulto, Jr. <br> Mae C. Tacastacas <br> Crisol F. Cayetano </h6></h6>
+				<h3 class="text-center"><span id="txtMin"></h3>
 			</div>
 		</div>
 	</body>

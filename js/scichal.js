@@ -191,6 +191,9 @@ var questions = [
 				$('#startExam').click(function(){
 					$('#introexam').fadeOut(250);
 					$('#mainexam').fadeIn(500);
+					var fiveMinutes = 90*60,
+					display = document.querySelector('#time');
+					timer(fiveMinutes, display);
 					goExam();
 				});
 				
@@ -362,9 +365,11 @@ var questions = [
 					//displays result if it has reached 50 questions
 					if(pos > 49){
 						$('#mainexam').fadeOut(500);
+						$('#footer').fadeOut(500);
 						$('#result').fadeIn(500);
 						var verdict = "";
 						wrongAns = 50 - parseInt(correct);
+						$('#totalTime').text($('#txtMin').html());
 						
 						if(correct < 50*.6)
 						{
@@ -455,7 +460,7 @@ var questions = [
 				}
 				//displays main menu after 5 seconds when the app was loaded
 				function countdown(secs) {
-					if (secs == 2){
+					if (secs == 4){
 						$('#choiceA').css('background-color', '#5bc0de');
 						$('#choiceB').css('background-color', '#5bc0de');
 						$('#choiceC').css('background-color', '#5bc0de');
@@ -477,3 +482,96 @@ var questions = [
 						correct=0;
 						pos=0;
 					}
+
+					function timer(duration, display) {
+					var timer = duration, minutes, seconds;
+					setInterval(function(){
+						minutes=parseInt(timer/60, 10);
+						seconds=parseInt(timer%60, 10);
+						
+						minutes = minutes < 10 ? "0" + minutes : minutes;
+						seconds = seconds < 10 ? "0" + seconds : seconds;
+						
+						txtMin.textContent = minutes + ":" + seconds;
+						
+						if(--timer < 0){
+							timer = duration;
+							$('#mainexam').fadeOut(500);
+							$('#footer').fadeOut(500);
+						$('#result').fadeIn(500);
+						var verdict = "";
+						wrongAns = 50 - parseInt(correct);
+						$('#totalTime').text($('#txtMin').html());
+						
+						if(correct < 50*.6)
+						{
+							verdict = "Sorry, you failed...";
+							$('#resultVerdict').text(verdict);
+						}
+						else
+						{
+							verdict = "Congratulations! You passed...";
+							$('#resultVerdict').text(verdict);
+						}
+						$('#totalScore').text(correct);
+						var doughnutOptions = {
+							//Boolean - Whether we should show a stroke on each segment
+							segmentShowStroke : true,
+							
+							//String - The colour of each segment stroke
+							segmentStrokeColor : "#fff",
+							
+							//Number - The width of each segment stroke
+							segmentStrokeWidth : 2,
+							
+							//The percentage of the chart that we cut out of the middle.
+							percentageInnerCutout : 50,
+							
+							//Boolean - Whether we should animate the chart	
+							animation : true,
+							
+							//Number - Amount of animation steps
+							animationSteps : 100,
+							
+							//String - Animation easing effect
+							animationEasing : "easeOutBounce",
+							
+							//Boolean - Whether we animate the rotation of the Doughnut
+							animateRotate : true,
+
+							//Boolean - Whether we animate scaling the Doughnut from the centre
+							animateScale : true,
+							
+							//Function - Will fire on animation completion.
+							onAnimationComplete : null
+						}
+
+
+						// Doughnut Chart Data
+						var doughnutData = [
+							{
+								label: "Correct",
+								value : correct,
+								color : "#4cae4c"
+							},
+							{
+								label: "Mistakes",
+								value : wrongAns,
+								color : "#d43f3a"
+							},
+
+						]
+
+
+						//Get the context of the Doughnut Chart canvas element we want to select
+						var ctx = document.getElementById("doughnutChart").getContext("2d");
+
+						// Create the Doughnut Chart
+						var mydoughnutChart = new Chart(ctx).Doughnut(doughnutData, doughnutOptions); 
+						
+						pos=0;
+						correct=0;
+						return false;
+						}
+					}, 1000);
+				}

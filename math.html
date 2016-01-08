@@ -15,6 +15,18 @@
 		<script src="js/main.js"></script>
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/chart.js"></script>
+		<script>
+		function newpage() {
+					window.location = newLocation;
+				}
+			$(document).ready(function(){
+				$('#btnHome').click(function(){
+					event.preventDefault();
+					newLocation = 'mathcate.html';
+					$('body').fadeOut(500, newpage);
+				});
+			});
+		</script>
 	</head>
 	
 	<body>
