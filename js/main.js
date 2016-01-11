@@ -1,8 +1,8 @@
 $(document).ready(function(){
-				$('#footerinfo').hide(500);
+				$('#divDev').hide(500);
 		
 				$('#footerglyph').click(function(){
-					$('#footerinfo').slideToggle(500);
+					$('#divDev').slideToggle(500);
 				});
 				
 				// Show or hide the sticky footer button

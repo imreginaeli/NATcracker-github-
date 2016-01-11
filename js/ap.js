@@ -35,7 +35,7 @@ var questions = [
 ["Kailan bumalik si Hen. Douglas McArthur sa Pilipinas?", "Disyembre 20, 1944", "Oktubre 20, 1944", "Disyembre 8, 1944", "Agosto 21, 1944", "B", "Araling<br> Panlipunan"],
 ["Unang pangulo ng pangatlong republika ng Pilipinas:", "Jose P. Laurel", "Manuel A. Roxas", "Emillio F. Aguinaldo", "Manuel Luiz M. Quezon", "B", "Araling<br> Panlipunan"],
 ["Pangulo ng Pilipinas na tinaguriang \"Japanese Puppet\":", "Elpidio R. Quirino", "Ramon F. Magsaysay", "Ferdinand E. Marcos", "Jose P. Laurel", "D", "Araling<br> Panlipunan"],
-["Pangulo ng ilipinas na nagtatag ng Bangko Sentral ng Pilipinas:", "Elpidio R. Quirino", "Ramon F. Magsaysay", "Fidel V. Ramos", "Carlos P. Garcia", "A", "Araling<br> Panlipunan"],
+["Pangulo ng Pilipinas na nagtatag ng Bangko Sentral ng Pilipinas:", "Elpidio R. Quirino", "Ramon F. Magsaysay", "Fidel V. Ramos", "Carlos P. Garcia", "A", "Araling<br> Panlipunan"],
 ["Siya ang pinuno ng gerilya sa Gitnang Luzon, kilala ang kanilang grupo bilang HUKBALAHAP:", "Hen. McArthur", "Alfredo Montelibano", "Hen. Miguel Malvar", "Luis Taruc", "D", "Araling<br> Panlipunan"],
 ["Itinakda ng batas na ito ang pagbili ng pamahalaan ng mga lupa na ipagkakaloob sa mga magsasakang walang sakahan:", "Anti-subversion Law", "Central Inteligence<br> Agency", "Land Tenure <br>Reform Law", "Agricultural Credit <br>and Cooperative", "C", "Araling<br> Panlipunan"],
 ["Pangulo ng Pilipinas na naglunsad ng Pilino First Policy:", "Diosdado P. Macapagal", "Carlos P. Romulo", "Carlos P. Garcia", "Fidel V. Ramos", "C", "Araling<br> Panlipunan"],

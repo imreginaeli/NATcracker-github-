@@ -32,6 +32,13 @@ body{
 				display: block;
 			}
 			
+			#abouttitle{
+				color: white;
+				font-weight: bold;
+				text-align: center;
+				font-family: sans-serif;
+			}
+			
 			hr{
 				margin: 15px auto 15px;
 				padding: 0;
