@@ -191,6 +191,18 @@
 				text-align: center;
 				font-family: sans-serif;
 			}
+			
+			#divDev{
+				background-color: #2c3e50;
+				width: 100%;
+				height: auto;
+				margin-top: 50px;
+				padding: 10px;
+				color: white;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
 		</style>
 	</head>
 	
@@ -229,16 +241,22 @@
 			</div>
 		</div>
 			<div class="container" id="footer">
-				<p><span class="glyphicon glyphicon-info-sign" id="footerglyph"></span></p>
-				<div id="divDev" style="height: auto;">
-					<h4 id="abouttitle">DEVELOPER</h4>
-					<img src="images/dev.jpg" style="width: 120px; height: 120px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%; border: 2px solid white;">
-					<h5 class="text-center">Elisa Regina DC. Elamparo<br>Bachelor of Science in Information Technology<br>elisa.elamparo@outlook.ph</h5><br>
-					<h4 id="abouttitle">SUBMITTED TO:</h4>
-					<h5 class="text-center">Mr. Willy Rance Antigo <br>Gordon College<br>ITF424 Free Elective 2015-2016</h5><br>
-					<h4 id="abouttitle">AUTHORS</h4>
-					<h5 class="text-center">Rosendo P. Agulto, Jr. <br> Mae C. Tacastacas <br> Crisol F. Cayetano</h5>
-				</div>
+				<p><span class="glyphicon glyphicon-info-sign" id="footerglyph" data-toggle="modal" data-target="#modAbout"></span></p>
+			</div>
+			
+			<div id="modAbout" class="modal fade" role="dialog">
+					<div class="modal-body">
+						<div id="divDev" style="height: auto;">
+							<button type="button" class="close pull-right" data-dismiss="modal" style="color: white; width: 20px; background-color: #18bc9c;">&times;</button>
+							<h4 id="abouttitle">DEVELOPER</h4>
+							<img src="images/dev.jpg" style="width: 120px; height: 120px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%; border: 2px solid white;">
+							<h5 class="text-center">Elisa Regina DC. Elamparo<br>Bachelor of Science in Information Technology<br>elisa.elamparo@outlook.ph</h5><br>
+							<h4 id="abouttitle">SUBMITTED TO:</h4>
+							<h5 class="text-center">Mr. Willy Rance Antigo <br>Gordon College<br>ITF424 Free Elective 2015-2016</h5><br>
+							<h4 id="abouttitle">AUTHORS</h4>
+							<h5 class="text-center">Rosendo P. Agulto, Jr. <br> Mae C. Tacastacas <br> Crisol F. Cayetano</h5>
+						</div>
+					</div>
 			</div>
 	</body>
 </html>

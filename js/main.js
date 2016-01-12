@@ -1,10 +1,4 @@
 $(document).ready(function(){
-				$('#divDev').hide(500);
-		
-				$('#footerglyph').click(function(){
-					$('#divDev').slideToggle(500);
-				});
-				
 				// Show or hide the sticky footer button
 				$(window).scroll(function() {
 					if ($(this).scrollTop() > 200) {
